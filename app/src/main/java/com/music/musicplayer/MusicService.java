@@ -7,10 +7,6 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-/**
- * Created on 13-02-2017.
- */
-
 public class MusicService extends Service implements MediaPlayer.OnCompletionListener {
 
     private MediaPlayer mp;
