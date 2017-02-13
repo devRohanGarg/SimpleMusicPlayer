@@ -5,4 +5,5 @@
     <string name="play_pause">Play or Pause</string>
     <string name="stop">Stop</string>
     <string name="about">This is a simple music player. Press the Play/Pause button to start or pause the music. Press the stop button to stop the music.</string>
+    <string name="love">Made with Love</string>
 </resources>

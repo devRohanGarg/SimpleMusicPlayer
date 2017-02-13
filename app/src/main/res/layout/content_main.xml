@@ -49,18 +49,22 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <ImageView
+                android:id="@+id/play_pause"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
+                android:clickable="true"
                 android:contentDescription="@string/play_pause"
                 android:src="@mipmap/ic_play_pause" />
 
             <ImageView
+                android:id="@+id/stop"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
+                android:clickable="true"
                 android:contentDescription="@string/stop"
                 android:src="@mipmap/ic_stop" />
         </LinearLayout>
